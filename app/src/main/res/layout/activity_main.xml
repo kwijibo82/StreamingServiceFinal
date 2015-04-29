@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="@color/material_blue_grey_800"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Streaming"
+        android:layout_gravity="center"
+        android:textSize="20dp"/>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonVerVideos"
+        android:text="Ver videos"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:layout_width="250dp"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonSubirVideos"
+        android:text="Subir videos"
+        android:layout_gravity="center"
+
+        />
+
+
+</LinearLayout>
